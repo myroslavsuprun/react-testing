@@ -1,6 +1,7 @@
-@import-normalize; /* bring in normalize.css styles */
-
-body {
+import { createGlobalStyle } from 'styled-components';
+import 'modern-normalize';
+const GlobalStyle = createGlobalStyle`
+    body {
   font-family: sans-serif;
   line-height: 1.5;
 }
@@ -26,3 +27,6 @@ img {
   max-width: 100%;
   height: auto;
 }
+`;
+
+export default GlobalStyle;
