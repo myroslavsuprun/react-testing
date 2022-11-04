@@ -5,7 +5,7 @@ import { getCustomers } from 'fakeApi';
 import { useEffect, useState, useMemo } from 'react';
 import { Link, useLocation, useSearchParams } from 'react-router-dom';
 
-export const Customers = () => {
+const Customers = () => {
   const [customers, setCustomers] = useState([]);
   const [searchParams, setSearchParams] = useSearchParams();
   const filterQuery = searchParams.get('filter') ?? '';
@@ -44,3 +44,5 @@ export const Customers = () => {
     </main>
   );
 };
+
+export default Customers;

@@ -3,7 +3,7 @@ import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Wrapper } from './Home.styled';
 
-export function Home() {
+export default function Home() {
   return (
     <Wrapper>
       <AppBar />

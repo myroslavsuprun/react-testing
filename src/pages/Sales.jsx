@@ -7,7 +7,7 @@ const navItems = [
   { href: 'deposits', text: 'Deposits' },
 ];
 
-export function Sales() {
+export default function Sales() {
   return (
     <>
       <Wrapper>
