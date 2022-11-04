@@ -10,16 +10,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </React.StrictMode>
 );
-
-/*
-  "/" - Home
-    "/dashboard" Dashboard 
-    "/sales" Sales
-      - "/analytics" Analytics
-      - "/invoices" Invoices 
-        - /:invoiceID Invoice
-      - "/deposits" Deposits
-    "/reports" Reports
-    "/feedback" Feedback
-    "/customers" Customers
-*/
